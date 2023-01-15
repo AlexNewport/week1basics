@@ -7,14 +7,15 @@
     <title>Document</title>
 </head>
 <body>
-    <label>Your course name: <input class="course" type="text"></label>
+    <label>What language was created to add interactivity to the Web?  :<input class="course" type="text"></label>
 
 
     <script>
     
-    alert("test")
+    let response = prompt("What code library do you prefer?",
+    "Vue, React, or JQuery");
+    alert(response);
 
-    alert(document.querySelector(".course"));
 
     var txtCourse = document.querySelector(".course");
 
